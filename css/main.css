@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    height: 100svh;
+    background-color:hsl(47, 88%, 63%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     font-family: "Figtree", sans-serif;
+}
+.container{
+    background-color: white;
+    padding: 30px;
+    box-shadow:9px 13px 0px 0px black;
+    border-radius: 16px;
+    width: 300px;
+    border:solid 1px black;
+  height: fit-content;
+    
+}
+
+.Learning{
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 5px 15px 5px 15px;
+    font-weight: 800;
+    border-radius: 4px;
+    margin: 15px 0 15px 0;
+}
+.Published{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.yellow{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.yellow:hover{
+    -webkit-text-fill-color: hsl(47, 88%, 63%);
+}
+.paragraph{
+    font-size: 14px;
+    line-height: 1.5;
+    -webkit-text-fill-color:  hsl(0, 0%, 42%);
+    margin-bottom: 15px;
+}
+.icon{
+    display: flex;
+}
+.man{
+    width: 30px;
+}
+.name{
+    font-weight: 800;
+    margin: 5px 0 0 10px;
+}
